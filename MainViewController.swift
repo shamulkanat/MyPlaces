@@ -15,7 +15,14 @@ class MainViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Bugfix branch print ")
     }
+    
+    func bugFixFunc() {
+        print("BugFixFunc")
+    }
+    
 
         
 
@@ -36,6 +43,7 @@ class MainViewController: UITableViewController {
         return cell!
         
     }
+    
     
 
     /*
