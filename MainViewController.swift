@@ -16,8 +16,13 @@ class MainViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("master branch print ")
-    }
+        }
 
+        func bugFixFunc() {
+        print("BugFixFunc")
+        }
+  
+       
         
 
     // MARK: - Table view data source
@@ -37,6 +42,7 @@ class MainViewController: UITableViewController {
         return cell!
         
     }
+    
     
 
     /*
